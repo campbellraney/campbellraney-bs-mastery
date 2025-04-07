@@ -17,10 +17,24 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 // Import partials:
 
 // Custom styles:
+/* Select all navigation links */
+ 
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .nav-link.active {
+    font-weight: bold;
+  }  
+
+  
+  
+
 
